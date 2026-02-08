@@ -1,0 +1,90 @@
+/* COLORS */
+:root {
+    --primary-blue: #1e3a8a;
+    --accent-orange: #fb923c;
+    --light-grey: #e0e0e0;
+    --dark-grey: #4a4a4a;
+    --white: #ffffff;
+}
+
+/* BODY RESET */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: var(--dark-grey);
+}
+
+/* HEADER */
+header {
+    background: var(--white);
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--primary-blue);
+    text-decoration: none;
+}
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+.nav-links a {
+    text-decoration: none;
+    color: var(--dark-grey);
+}
+
+/* HERO */
+#hero {
+    background: var(--primary-blue);
+    color: var(--white);
+    padding: 100px 20px;
+    text-align: center;
+}
+.primary-btn {
+    background: var(--accent-orange);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+/* SECTIONS */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+.skill-box {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.skill {
+    background: var(--light-grey);
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+.project-card {
+    background: var(--light-grey);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* CONTACT FORM */
+input, textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid var(--light-grey);
+    border-radius: 6px;
+}
+.secondary-btn {
+    background: var(--primary-blue);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
